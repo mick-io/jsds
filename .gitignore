@@ -57,3 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
+# Text Editors
+.idea
+.vscode
+.vs
+
+# Weird Mac File
+.DS_store
