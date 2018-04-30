@@ -1,2 +1,4 @@
 # js-data-structures
-Examples advanced data-structures built with JavaScript
+Examples Abstract data-structures built with JavaScript
+
+## Stack

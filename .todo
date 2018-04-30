@@ -1,2 +1,3 @@
 [] Add optional 'maxsize' parameter to Stack
 [] Add optional argument that converts an array to a Stack
+[] Update config file with instructions on how to use each data time.
