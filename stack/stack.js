@@ -1,7 +1,9 @@
 /**
- * Stack: Abstract Data Type
+ * Abstract Data Type: Stack
+ * A stack is a series of elements which are only accessible from the 'top'.
+ * Stacks are the implementation of a last data in, first data out data structure.
  */
-module.exports = (function() {
+module.exports = function() {
   /* Private Variables */
   let dataStore = [];
   let size = 0;
@@ -10,7 +12,7 @@ module.exports = (function() {
     /**
      * @returns {number} 1 based size of the stack
      */
-    get length() {
+    get size() {
       return size;
     }
 
@@ -44,5 +46,5 @@ module.exports = (function() {
     }
   }
 
-  return Stack;
-})();
+  return new Stack();
+};
