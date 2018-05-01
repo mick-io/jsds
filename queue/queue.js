@@ -44,6 +44,15 @@ module.exports = function() {
     }
 
     /**
+     * Checks the Queue for a given element.
+     * @param {any} element The element to be searched for
+     * @returns {boolean} Returns true if the element is in the queue.
+     */
+    contains(element) {
+      return dataStore.includes(element);
+    }
+
+    /**
      * Removes all elements from the queue.
      */
     clear() {

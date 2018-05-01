@@ -5,5 +5,9 @@
 ## STACK
 
 [] Add optional 'maxsize' parameter to Stack
-[] Add optional argument that converts an array to a Stack
-[] Add contains method to Stack
+[] Add 'contains()' method to Stack
+
+## Queue
+
+[] Create Test for queue
+[] Create .d.ts for queue
