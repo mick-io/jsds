@@ -6,35 +6,34 @@
 module.exports = function() {
   /* Private Variables */
   let dataStore = [];
-  let size = 0;
 
   class Stack {
     /**
      * @returns {number} 1 based size of the stack
      */
     get size() {
-      return size;
+      return dataStore.length;
     }
 
     /**
      * @param {any} element added to the top of the stack
      */
     push(element) {
-      dataStore[size++] = element;
+      dataStore.push(element);
     }
 
     /**
      * @returns {any} and removes the element at the top of the stack.
      */
     pop() {
-      return dataStore[--size];
+      return dataStore.pop();
     }
 
     /**
      * @returns {any} the element at the top of the stack. Does not remove element
      */
     peek() {
-      return dataStore[size - 1];
+      return dataStore[dataStore.length - 1];
     }
 
     /**
@@ -42,7 +41,6 @@ module.exports = function() {
      */
     clear() {
       dataStore = [];
-      size = 0;
     }
   }
 
