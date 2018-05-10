@@ -17,6 +17,7 @@ module.exports = function() {
 
     /**
      * @param {any} element added to the top of the stack
+     * @returns {void}
      */
     push(element) {
       dataStore.push(element);
@@ -38,6 +39,7 @@ module.exports = function() {
 
     /**
      * Removes all elements from the stack
+     * @returns {void}
      */
     clear() {
       dataStore = [];

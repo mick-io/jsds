@@ -1,7 +1,7 @@
 /**
  * Abstract Data Type: Queue
  */
-module.exports = function() {
+module.exports = function () {
   /* Private Variables */
   let dataStore = [];
 
@@ -30,6 +30,7 @@ module.exports = function() {
     /**
      * Adds an element to the queue.
      * @param {any} element the element to be added to the queue
+     * @returns {void}
      */
     enqueue(element) {
       dataStore.push(element);
@@ -54,6 +55,7 @@ module.exports = function() {
 
     /**
      * Removes all elements from the queue.
+     * @returns {void}
      */
     clear() {
       dataStore = [];
