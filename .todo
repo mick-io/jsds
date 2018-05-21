@@ -9,5 +9,9 @@
 
 ## Queue
 
-[] Create Test for queue
-[] Create .d.ts for queue
+[] Create test for queue
+[x] Create .d.ts for queue
+
+## Linked List
+[] Create test for linked list
+[] Create type def file for linked list
