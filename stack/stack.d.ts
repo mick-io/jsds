@@ -2,7 +2,7 @@ export declare class Stack {
   /**
    * @returns {number} 1 based size of the stack
    */
-  get size(): number
+  size(): number
 
   /**
    * @param {any} element added to the top of the stack

@@ -2,17 +2,17 @@ export declare class Queue {
   /**
    * @returns {number} 1 based size of the queue
    */
-  get size(): number
+  size(): number
 
   /**
    * @returns {any} returns the element at the front of the queue.
    */
-  get front(): any
+  front(): any
 
   /**
    * @returns {any} returns the element
    */
-  get back(): any
+  back(): any
 
   /**
    * Adds an element to the queue.
